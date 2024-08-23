@@ -37,7 +37,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+57) 304",
+      fieldValue: "(+57) 3043983187",
     },
     {
       fieldName: "Whatsapp",
