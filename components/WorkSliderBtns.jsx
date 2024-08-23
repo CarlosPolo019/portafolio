@@ -6,4 +6,4 @@ const WorkSliderBtns = () => {
   )
 }
 
-export default WorkSliderBtns
+export default WorkSliderBtns;
