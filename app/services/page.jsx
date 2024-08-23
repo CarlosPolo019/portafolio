@@ -9,25 +9,26 @@ const services = [
     num: "01",
     href: "/",
     title: "Web Developmet",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    description:
+      " I offer complete web development services, from concept to implementation, using modern technologies like React JS. I specialize in creating optimized user interfaces that enhance user experience and increase client retention.",
   },
   {
     num: "02",
     href: "/",
     title: "Backend Developmet",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    description: "I provide robust backend development solutions with Node.js and PHP. My approach includes planning, designing, and executing scalable and efficient systems, optimizing databases like MySQL to ensure optimal performance.",
   },
   {
     num: "03",
     href: "/",
     title: "Devops",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    description: "I deliver comprehensive DevOps services, including cloud infrastructure management using AWS and Google Cloud Platform. I ensure high availability, security, and efficiency in system management, enabling continuous delivery and resource optimization. ",
   },
   {
     num: "04",
     href: "/",
     title: "Data Analyst",
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    description: " I offer data analysis and database optimization services, utilizing MySQL and Power BI. My focus is on solving complex problems with attention to detail, improving decision-making, and operational efficiency. ",
   },
 ];
 
@@ -60,7 +61,9 @@ const Services = () => {
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 ">{service.title}</h2>
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 ">
+                  {service.title}
+                </h2>
 
                 <p className="text-white/60">{service.description}</p>
 

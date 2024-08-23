@@ -29,11 +29,11 @@ import { motion } from "framer-motion";
 
 const about = {
   title: "About me",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  description: "A passionate full-stack developer with over 5 years of experience, committed to delivering innovative solutions and exceptional results. Fluent in both English and Spanish, and available for freelance opportunities. ",
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Charles Escorcia",
+      fieldValue: "Carlos Escorcia",
     },
     {
       fieldName: "Phone",
@@ -45,7 +45,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "6+ Years",
+      fieldValue: "5+ Years",
     },
     {
       fieldName: "Nationality",
@@ -70,7 +70,8 @@ const about = {
 const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My Experience",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  description:
+    "Driven by innovation and excellence, I've led full-stack development at Dash Develop, crafted seamless web solutions at LiveDesign, and contributed to projects for brands like iFood. Each role has sharpened my skills and fueled my passion for delivering scalable, impactful solutions.",
   items: [
     {
       company: "Dash Develop",
@@ -103,7 +104,7 @@ const experience = {
 const education = {
   icon: "/assets/resume/cap.svg",
   title: "My Education",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  description: "My background in systems engineering, combined with specialized training in agile methodologies, has given me a strong technical foundation. Graduating in Ingeniería de Sistemas from Universidad de la Costa, I've enhanced my skills with certifications in Scrum, Design Thinking, and Kanban, enabling me to tackle complex challenges with innovative solutions.",
   items: [
     {
       instituto: "Universidad de la Costa",
@@ -126,7 +127,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+  description: "Equipped with a powerful toolkit, I create dynamic, scalable web applications. I specialize in both front-end and back-end technologies, ensuring seamless user experiences and robust functionality. My expertise extends to managing cloud infrastructures and turning data into actionable insights.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -205,7 +206,7 @@ const Resume = () => {
             <TabsContent value="experencie" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[80vw] text-white/60 mx-auto xl:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -234,7 +235,7 @@ const Resume = () => {
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[80vw] text-white/60 mx-auto xl:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
@@ -264,7 +265,7 @@ const Resume = () => {
               <div className="flex flex-col gap-[30px] ">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                  <p className="max-w-[80vw] text-white/60 mx-auto xl:mx-0">
                     {skills.description}
                   </p>
                 </div>
@@ -297,13 +298,16 @@ const Resume = () => {
             >
               <div className="flex flex-col gap-[30px] text-center xl:text-left">
                 <h3 className="text-4xl font-bold">{about.title}</h3>
-                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                <p className="max-w-[80vw] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
                 <ul className="grid gird-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => {
                     return (
-                      <li key={index} className="flex items-center justify-center xl:justify-start gap-4">
+                      <li
+                        key={index}
+                        className="flex items-center justify-center xl:justify-start gap-4"
+                      >
                         <span className="text-white/60">{item.fieldName}</span>
                         <span className="text-xl">{item.fieldValue}</span>
                       </li>
