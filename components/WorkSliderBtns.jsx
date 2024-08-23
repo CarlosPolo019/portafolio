@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 const WorkSliderBtns = () => {
   return (
@@ -7,3 +7,4 @@ const WorkSliderBtns = () => {
 }
 
 export default WorkSliderBtns;
+*/

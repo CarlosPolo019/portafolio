@@ -12,7 +12,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-import {WorkSliderBtns} from "../../components/WorkSliderBtns";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -157,10 +156,6 @@ const Work = () => {
                   </SwiperSlide>
                 );
               })}
-
-              <WorkSliderBtns>
-
-              </WorkSliderBtns>
             </Swiper>
           </div>
         </div>
