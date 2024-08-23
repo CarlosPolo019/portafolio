@@ -13,8 +13,8 @@ const jetbrainsmono = JetBrains_Mono({subsets: ['latin'],
  })
 
  export const metadata = {
-  title: "Carlos Escorcia - Full Stack Developer",
-  description: "Explore the portfolio of Carlos Escorcia, a Full Stack Developer specializing in Node.js, PHP, React JS, and cloud solutions.",
+  title: "Carlos Escorcia - Full Stack Developer | React, Node.js, Web Developer Portfolio",
+  description: "Explore the portfolio of Carlos Escorcia, a Full Stack Developer specializing in React and Node.js. Discover projects, experience, and services",
 };
 
 export default function RootLayout({ children }) {
