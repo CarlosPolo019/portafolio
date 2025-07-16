@@ -19,7 +19,6 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiMysql,
-  SiPowerbi,
   SiMongodb,
   SiTypescript,
   SiLooker,
@@ -198,7 +197,6 @@ const skills = {
       title: "Analytics & Business Intelligence",
       color: "text-pink-400",
       skills: [
-        { icon: <SiPowerbi />, name: "Power BI" },
         { icon: <SiLooker />, name: "Looker Studio" },
       ]
     }
