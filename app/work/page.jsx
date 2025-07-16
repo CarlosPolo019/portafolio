@@ -201,6 +201,19 @@ const Work = () => {
                 </div>
               </div>
 
+              {/* Key Achievements - Mostrar en mobile después del tech stack */}
+              <div className="space-y-4 xl:hidden">
+                <h4 className="text-2xl font-bold text-white">Key Achievements:</h4>
+                <ul className="space-y-3">
+                  {project.achievements.map((achievement, index) => (
+                    <li key={index} className="text-white/80 text-base flex items-start">
+                      <span className="w-2 h-2 bg-accent rounded-full mr-4 mt-2 flex-shrink-0"></span>
+                      <span>{achievement}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
                 {project.live && (
@@ -315,8 +328,8 @@ const Work = () => {
               </div>
             </div>
             
-            {/* Key Achievements - Below Image */}
-            <div className="space-y-4">
+            {/* Key Achievements - Solo visible en desktop */}
+            <div className="space-y-4 hidden xl:block">
               <h4 className="text-2xl font-bold text-white">Key Achievements:</h4>
               <ul className="space-y-3">
                 {project.achievements.map((achievement, index) => (
