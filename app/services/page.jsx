@@ -8,27 +8,45 @@ const services = [
   {
     num: "01",
     href: "/",
-    title: "Web Developmet",
+    title: "Full-Stack Web Development",
     description:
-      " I offer complete web development services, from concept to implementation, using modern technologies like React JS. I specialize in creating optimized user interfaces that enhance user experience and increase client retention.",
+      "End-to-end web development solutions using modern frameworks including React.js, Next.js, and Node.js. Specialized in building responsive, scalable applications with optimized performance, SEO implementation, and cross-browser compatibility. Expert in JavaScript ES6+, TypeScript, and modern CSS frameworks like Tailwind CSS.",
+    keywords: ["React.js", "Next.js", "JavaScript", "TypeScript", "Node.js", "Responsive Design", "SEO Optimization"]
   },
   {
     num: "02",
     href: "/",
-    title: "Backend Developmet",
-    description: "I provide robust backend development solutions with Node.js and PHP. My approach includes planning, designing, and executing scalable and efficient systems, optimizing databases like MySQL to ensure optimal performance.",
+    title: "Backend Development & API Design",
+    description: "Robust backend architecture development using Node.js, PHP, and Laravel. Expertise in RESTful API design, GraphQL implementation, microservices architecture, and database optimization (MySQL, MongoDB, PostgreSQL). Focus on scalable system design, security best practices, and performance optimization.",
+    keywords: ["Node.js", "PHP", "Laravel", "RESTful APIs", "GraphQL", "Microservices", "Database Optimization"]
   },
   {
     num: "03",
     href: "/",
-    title: "Devops",
-    description: "I deliver comprehensive DevOps services, including cloud infrastructure management using AWS and Google Cloud Platform. I ensure high availability, security, and efficiency in system management, enabling continuous delivery and resource optimization. ",
+    title: "Cloud Infrastructure & DevOps",
+    description: "Comprehensive cloud solutions using AWS and Google Cloud Platform. Specializing in containerization with Docker, orchestration with Kubernetes, CI/CD pipeline implementation, infrastructure as code, and automated deployment strategies. Expert in monitoring, logging, and ensuring high availability systems.",
+    keywords: ["AWS", "Google Cloud", "Docker", "Kubernetes", "CI/CD", "Infrastructure as Code", "DevOps"]
   },
   {
     num: "04",
     href: "/",
-    title: "Data Analyst",
-    description: " I offer data analysis and database optimization services, utilizing MySQL and Power BI. My focus is on solving complex problems with attention to detail, improving decision-making, and operational efficiency. ",
+    title: "Data Analytics & Business Intelligence",
+    description: "Advanced data analysis and visualization using Power BI, Looker Studio, and BigQuery. Expertise in ETL processes, data warehousing, statistical analysis, and creating actionable business insights. Proficient in SQL optimization, data modeling, and automated reporting solutions.",
+    keywords: ["Power BI", "Looker Studio", "BigQuery", "Data Analysis", "SQL", "ETL", "Business Intelligence"]
+  },
+  {
+    num: "05",
+    href: "/",
+    title: "Process Automation & Integration",
+    description: "Workflow automation and system integration using N8N, Zapier, and custom automation solutions. Specializing in API integrations, data synchronization, business process optimization, and reducing manual tasks through intelligent automation. Expert in webhook implementations and third-party service integrations.",
+    keywords: ["N8N", "Automation", "API Integration", "Workflow Optimization", "Process Automation", "System Integration"]
+  },
+  {
+    num: "06",
+    href: "/",
+    title: "Technical Leadership & Team Management",
+    description: "Technical team leadership with 5+ years of experience managing cross-functional development teams. Expertise in agile methodologies (Scrum, Kanban), code review processes, mentoring junior developers, project planning, and implementing best practices for software development lifecycle.",
+    keywords: ["Technical Leadership", "Team Management", "Agile Methodologies", "Scrum", "Mentoring", "Project Management"]
   },
 ];
 
@@ -61,12 +79,24 @@ const Services = () => {
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 ">
+                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
                   {service.title}
                 </h2>
-
-                <p className="text-white/60">{service.description}</p>
-
+                
+                <p className="text-white/60 leading-relaxed">{service.description}</p>
+                
+                {/* Keywords for ATS optimization */}
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {service.keywords.map((keyword, keywordIndex) => (
+                    <span 
+                      key={keywordIndex}
+                      className="text-xs bg-accent/10 text-accent px-2 py-1 rounded-md font-medium"
+                    >
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+                
                 <div className="border-b border-white/20 w-full"></div>
               </div>
             );
