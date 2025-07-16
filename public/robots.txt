@@ -1,9 +1,4 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://carlosportafolio.vercel.app
-
-# Sitemaps
-Sitemap: https://carlosportafolio.vercel.app/sitemap.xml
+Sitemap: https://cmescorcia.com/sitemap.xml
