@@ -31,24 +31,24 @@ const Home = () => {
       {/* SEO Meta Tags */}
       <Head>
         <title>Carlos Escorcia - Senior Full-Stack Developer | React.js, Node.js, AWS Expert</title>
-        <meta name="description" content="Welcome to Carlos Escorcia's portfolio. Experienced Full-Stack Developer with 5+ years in React.js, Node.js, AWS, and cloud architecture. Available for remote work worldwide." />
-        <meta name="keywords" content="Carlos Escorcia Portfolio, Senior Full-Stack Developer, React.js Expert, Node.js Developer, AWS Cloud Architect, Remote Developer Colombia, JavaScript Expert, Technical Leadership, Enterprise Software Development, SaaS Development, Startup Experience, Fortune 500 Projects" />
-        <meta name="author" content="Carlos Escorcia" />
+        <meta name="description" content="Welcome to Carlos Manuel Escorcia Polo portfolio. Experienced Full-Stack Developer with 5+ years in React.js, Node.js, AWS, and cloud architecture. Available for remote work worldwide." />
+        <meta name="keywords" content="Carlos Manuel Escorcia Polo Portfolio, Senior Full-Stack Developer, React.js Expert, Node.js Developer, AWS Cloud Architect, Remote Developer Colombia, JavaScript Expert, Technical Leadership, Enterprise Software Development, SaaS Development, Startup Experience, Fortune 500 Projects" />
+        <meta name="author" content="Carlos Manuel Escorcia Polo" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://cmescorcia.com/" />
         
         {/* Open Graph */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmescorcia.com/" />
-        <meta property="og:title" content="Carlos Escorcia - Senior Full-Stack Developer Portfolio" />
-        <meta property="og:description" content="Explore innovative web applications and cloud solutions by Carlos Escorcia. Expert in React.js, Node.js, AWS with 5+ years experience." />
+        <meta property="og:title" content="Carlos Manuel Escorcia Polo - Senior Full-Stack Developer Portfolio" />
+        <meta property="og:description" content="Explore innovative web applications and cloud solutions by Carlos Manuel Escorcia Polo. Expert in React.js, Node.js, AWS with 5+ years experience." />
         <meta property="og:image" content="https://cmescorcia.com/og-home.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://cmescorcia.com/" />
-        <meta name="twitter:title" content="Carlos Escorcia - Senior Full-Stack Developer" />
-        <meta name="twitter:description" content="Explore innovative web applications and cloud solutions by Carlos Escorcia. Expert in React.js, Node.js, AWS with 5+ years experience." />
+        <meta name="twitter:title" content="Carlos Manuel Escorcia Polo - Senior Full-Stack Developer" />
+        <meta name="twitter:description" content="Explore innovative web applications and cloud solutions by Carlos Manuel Escorcia Polo. Expert in React.js, Node.js, AWS with 5+ years experience." />
         <meta name="twitter:image" content="https://cmescorcia.com/og-home.jpg" />
         <meta name="twitter:creator" content="@cmescorcia" />
         
@@ -64,7 +64,7 @@ const Home = () => {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Carlos Escorcia",
+              "name": "Carlos Manuel Escorcia Polo",
               "jobTitle": "Senior Full-Stack Developer",
               "url": "https://cmescorcia.com",
               "email": "cmescorcia5@icloud.com",
@@ -127,7 +127,7 @@ const Home = () => {
               {/* Comprehensive ATS Keywords Section - Hidden from UI */}
               <div className="sr-only" aria-hidden="true">
                 {/* Professional Titles for ATS */}
-                <h2>Carlos Escorcia - Senior Full-Stack Developer | Software Engineer | Technical Lead</h2>
+                <h2>Carlos Manuel Escorcia Polo - Senior Full-Stack Developer | Software Engineer | Technical Lead</h2>
                 <h3>Full Stack Web Developer | Frontend Developer | Backend Developer | React.js Developer</h3>
                 <h4>Node.js Developer | JavaScript Expert | AWS Developer | Cloud Architect</h4>
                 <h5>DevOps Engineer | API Developer | Database Developer | Mobile Developer</h5>

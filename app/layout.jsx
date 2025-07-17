@@ -98,11 +98,11 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Carlos Escorcia Portfolio",
-              "description": "Professional portfolio of Carlos Escorcia, Senior Full-Stack Developer",
+              "description": "Professional portfolio of Carlos Manuel Escorcia Polo, Senior Full-Stack Developer",
               "url": "https://cmescorcia.com",
               "author": {
                 "@type": "Person",
-                "name": "Carlos Escorcia",
+                "name": "Carlos Manuel Escorcia Polo",
                 "jobTitle": "Senior Full-Stack Developer",
                 "email": "cmescorcia5@icloud.com",
                 "url": "https://cmescorcia.com",

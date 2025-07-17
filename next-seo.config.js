@@ -39,7 +39,7 @@ const SEOConfig = {
     },
     {
       name: 'author',
-      content: 'Carlos Escorcia'
+      content: 'Carlos Manuel Escorcia Polo',
     },
     {
       name: 'robots',
@@ -136,14 +136,14 @@ const SEOConfig = {
       rel: 'alternate',
       type: 'application/rss+xml',
       href: '/feed.xml',
-      title: 'Carlos Escorcia Blog RSS Feed'
+      title: 'Carlos Manuel Escorcia Polo Blog RSS Feed'
     }
   ],
   // JSON-LD structured data
   structuredData: {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Carlos Escorcia",
+    "name": "Carlos Manuel Escorcia Polo",
     "jobTitle": "Senior Full-Stack Developer",
     "description": "Experienced Software Engineer with 5+ years specializing in React.js, Node.js, AWS, and modern web development. Based in Colombia with remote work experience.",
     "url": "https://cmescorcia.com",
