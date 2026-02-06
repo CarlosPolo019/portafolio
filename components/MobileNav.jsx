@@ -38,13 +38,13 @@ const MobileNav = () => {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-accent" />
+        <CiMenuFries className="text-[32px] text-violet-400" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href="/" onClick={handleLinkClick}>
             <h1 className="text-4xl font-semibold">
-              Carlos<span className="text-accent">.</span>
+              Carlos<span className="text-violet-400">.</span>
             </h1>
           </Link>
         </div>
@@ -57,8 +57,8 @@ const MobileNav = () => {
                 onClick={handleLinkClick}
                 className={`${
                   link.path === pathname &&
-                  "text-accent border-b-2 border-accent"
-                } text-xl capitalize hover:text-accent transition-all duration-300`}
+                  "text-violet-400 border-b-2 border-violet-400"
+                } text-xl capitalize hover:text-violet-400 transition-all duration-300`}
               >
                 {link.name}
               </Link>

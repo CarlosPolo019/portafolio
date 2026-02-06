@@ -5,12 +5,12 @@ import { cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "incline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-semibold ring-offest-white transition-colors",
+  "inline-flex items-center justify-center whitespace-nowrap rounded-full text-base font-semibold transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 focus-visible:ring-offset-primary disabled:pointer-events-none disabled:opacity-60",
   {
     variants: {
       variant: {
         default:
-          "bg-accent text-primary hove:bg-accent-hover",
+          "bg-accent text-primary hover:bg-accent-hover",
         primary: 'bg-primary text-white',
         outline: 'border border-accent bg-transparent text-accent hover:bg-accent hover:text-primary'
       

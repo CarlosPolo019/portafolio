@@ -26,7 +26,87 @@
   }
 
   .text-outline-hover {
-    -webkit-text-stroke: 1px #00ff99;
+    -webkit-text-stroke: 1px #8b5cf6;
   }
 
+}
+
+@layer utilities {
+  .home-grid-bg {
+    background-image: radial-gradient(circle at 2px 2px, rgba(139, 92, 246, 0.22) 1px, transparent 0);
+    background-size: 36px 36px;
+  }
+
+  .violet-glow {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.45);
+  }
+
+  .violet-text-glow {
+    text-shadow: 0 0 14px rgba(139, 92, 246, 0.52);
+  }
+
+  .code-fade {
+    -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+    mask-image: linear-gradient(to bottom, black, transparent);
+  }
+
+  .float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+  }
+
+  .hero-node {
+    animation: pulse-node 2.8s ease-in-out infinite;
+  }
+
+  .tech-grid {
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  }
+
+  .glass-tech-card {
+    background: rgba(20, 20, 20, 0.62);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition: all 0.3s ease;
+  }
+
+  .glass-tech-card:hover {
+    border-color: rgba(139, 92, 246, 0.34);
+    background: rgba(25, 25, 25, 0.82);
+    transform: translateY(-4px);
+  }
+
+  .timeline-line {
+    background: linear-gradient(to bottom, transparent, #8b5cf6, transparent);
+  }
+
+  .glow-violet {
+    filter: drop-shadow(0 0 8px rgba(139, 92, 246, 0.4));
+  }
+}
+
+@keyframes float-slow {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-18px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes pulse-node {
+  0% {
+    opacity: 0.65;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.65;
+  }
 }
