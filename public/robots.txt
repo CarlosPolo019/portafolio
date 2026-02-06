@@ -15,7 +15,7 @@ Allow: /
 Crawl-delay: 1
 
 # Host
-Host: https://www.cmescorcia.com
+Host: https://cmescorcia.com
 
 # Sitemaps
-Sitemap: https://www.cmescorcia.com/sitemap.xml
+Sitemap: https://cmescorcia.com/sitemap.xml
