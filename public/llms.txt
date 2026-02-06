@@ -1,0 +1,22 @@
+site: https://cmescorcia.com
+name: Carlos Escorcia Portfolio
+owner: Carlos Manuel Escorcia Polo
+language: en, es
+
+about:
+- Senior Full-Stack Developer portfolio focused on React, Node.js, cloud architecture, and technical leadership.
+
+primary_pages:
+- / (Home)
+- /services
+- /resume
+- /work
+- /contact
+
+contact:
+- email: cmescorcia5@icloud.com
+- location: Barranquilla, Colombia
+
+usage_notes:
+- This site content may be summarized for discovery and attribution.
+- Do not fabricate project claims beyond the information published on the site.

@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Carlos Escorcia - Senior Full-Stack Developer | React.js, Node.js, AWS Expert</title>
+        <title>Carlos Escorcia | Full-Stack Developer React & Node.js</title>
         <meta name="description" content="Welcome to Carlos Manuel Escorcia Polo portfolio. Experienced Full-Stack Developer with 5+ years in React.js, Node.js, AWS, and cloud architecture. Available for remote work worldwide." />
         <meta name="keywords" content="Carlos Manuel Escorcia Polo Portfolio, Senior Full-Stack Developer, React.js Expert, Node.js Developer, AWS Cloud Architect, Remote Developer Colombia, JavaScript Expert, Technical Leadership, Enterprise Software Development, SaaS Development, Startup Experience, Fortune 500 Projects" />
         <meta name="author" content="Carlos Manuel Escorcia Polo" />

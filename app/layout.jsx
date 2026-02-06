@@ -15,7 +15,7 @@ const jetbrainsmono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Carlos Escorcia - Full Stack Developer | React, Node.js, Web Developer Portfolio",
+  title: "Carlos Escorcia | Full-Stack Developer React & Node.js",
   description: "Explore the portfolio of Carlos Manuel Escorcia Polo, a Full Stack Developer specializing in React and Node.js. Discover projects, experience, and services",
   metadataBase: new URL('https://cmescorcia.com'),
   alternates: {
