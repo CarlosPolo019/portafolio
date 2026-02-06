@@ -2,6 +2,7 @@
 module.exports = {
   siteUrl: 'https://cmescorcia.com',
   generateRobotsTxt: true,
+  generateIndexSitemap: false,
   sitemapSize: 7000,
   changefreq: 'weekly',
   priority: 0.7,
