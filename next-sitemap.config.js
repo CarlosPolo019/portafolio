@@ -1,24 +1,23 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://cmescorcia.com',
+  siteUrl: 'https://www.cmescorcia.com',
   generateRobotsTxt: true,
   sitemapSize: 7000,
-  changefreq: 'daily',
+  changefreq: 'weekly',
   priority: 0.7,
   exclude: ['/404', '/500', '/admin/*', '/_*'],
   
-  // Rutas adicionales
+  // Rutas principales del portafolio
   additionalPaths: async (config) => [
-    await config.transform(config, '/', '2024-01-01'),
-    await config.transform(config, '/services', '2024-01-01'),
-    await config.transform(config, '/resume', '2024-01-01'),
-    await config.transform(config, '/work', '2024-01-01'),
-    await config.transform(config, '/contact', '2024-01-01'),
+    await config.transform(config, '/'),
+    await config.transform(config, '/services'),
+    await config.transform(config, '/resume'),
+    await config.transform(config, '/work'),
+    await config.transform(config, '/contact'),
   ],
 
-  // Configuración personalizada por ruta
+  // Configuración por ruta
   transform: async (config, path) => {
-    // Prioridades específicas por página
     const priorities = {
       '/': 1.0,
       '/services': 0.9,
@@ -27,13 +26,12 @@ module.exports = {
       '/contact': 0.7,
     };
 
-    // Frecuencias específicas por página
     const changefreqs = {
       '/': 'weekly',
       '/services': 'monthly',
       '/resume': 'monthly',
       '/work': 'weekly',
-      '/contact': 'yearly',
+      '/contact': 'monthly',
     };
 
     return {
@@ -41,26 +39,16 @@ module.exports = {
       changefreq: changefreqs[path] || config.changefreq,
       priority: priorities[path] || config.priority,
       lastmod: new Date().toISOString(),
-      alternateRefs: [
-        {
-          href: `https://cmescorcia.com${path}`,
-          hreflang: 'en',
-        },
-        {
-          href: `https://cmescorcia.com/es${path}`,
-          hreflang: 'es',
-        },
-      ],
     };
   },
 
-  // Configuración de robots.txt
+  // robots.txt
   robotsTxtOptions: {
     policies: [
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/admin', '/_next', '/api/auth'],
+        disallow: ['/admin', '/api/auth'],
       },
       {
         userAgent: 'Googlebot',
@@ -72,10 +60,6 @@ module.exports = {
         allow: '/',
         crawlDelay: 1,
       },
-    ],
-    additionalSitemaps: [
-      'https://cmescorcia.com/sitemap.xml',
-      'https://cmescorcia.com/server-sitemap.xml',
     ],
   },
 };

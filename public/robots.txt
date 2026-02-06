@@ -1,4 +1,21 @@
+# *
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /api/auth
 
-Sitemap: https://cmescorcia.com/sitemap.xml
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Host
+Host: https://www.cmescorcia.com
+
+# Sitemaps
+Sitemap: https://www.cmescorcia.com/sitemap.xml
