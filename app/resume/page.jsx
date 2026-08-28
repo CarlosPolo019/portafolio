@@ -19,7 +19,7 @@ import {
   SiTailwindcss,
   SiNextdotjs,
   SiMysql,
-  SiMongodb,
+  SiPostgresql,
   SiTypescript,
   SiLooker,
   SiGooglebigquery,
@@ -46,72 +46,82 @@ const staggerItem = {
 const about = {
   title: "About me",
   description:
-    "Senior Full-Stack Developer with 5+ years of experience in web development, cloud architecture, and software engineering. Proven track record of leading technical teams, delivering scalable solutions, and implementing agile methodologies. Expertise in JavaScript, React, Node.js, AWS, and modern development practices. Bilingual professional (English/Spanish) with strong problem-solving skills and a passion for innovation.",
+    "Full-Stack Developer with 8+ years of experience delivering scalable web and mobile applications. Strong background in JavaScript, TypeScript, React, React Native, Node.js, Laravel, relational databases, GCP, AWS, CI/CD, API integrations, and automation. I focus technology on business outcomes, maintainable delivery, and reducing manual work through practical AI-powered workflows.",
   info: [
-    { fieldName: "Name", fieldValue: "Carlos Escorcia" },
-    { fieldName: "Experience", fieldValue: "5+ Years" },
-    { fieldName: "Location", fieldValue: "Colombia" },
+    { fieldName: "Name", fieldValue: "Carlos Escorcia Polo" },
+    { fieldName: "Experience", fieldValue: "8+ Years" },
+    { fieldName: "Location", fieldValue: "Barranquilla, Colombia" },
     { fieldName: "Email", fieldValue: "cmescorcia5@icloud.com" },
-    { fieldName: "Availability", fieldValue: "Full-time/Freelance" },
-    { fieldName: "Languages", fieldValue: "English (Fluent), Spanish (Native)" },
+    { fieldName: "Availability", fieldValue: "Full-time / Remote / Freelance" },
+    { fieldName: "Languages", fieldValue: "Spanish, English" },
     { fieldName: "Remote Work", fieldValue: "Available" },
-    { fieldName: "Team Leadership", fieldValue: "Technical Lead Experience" },
+    { fieldName: "Focus", fieldValue: "AI Integrations, Cloud, Automation" },
   ],
 };
 
 const experience = {
   title: "Professional Experience",
   description:
-    "Results-driven software engineer with extensive experience in full-stack development, technical leadership, and agile project management. Successfully delivered enterprise-level solutions for companies like iFood, led cross-functional teams, and implemented scalable architectures using modern technologies and cloud platforms.",
+    "Hands-on software engineer with a track record across full-stack delivery, mobile products, API integrations, automation, cloud infrastructure, and production support for client platforms and transportation operations.",
   items: [
     {
-      company: "Dash Develop",
-      position: "Technical Lead & Senior Full-Stack Developer",
-      duration: "2021 - Present",
-      highlights: [
-        "Led technical direction for enterprise web products and coordinated multi-team delivery.",
-        "Architected scalable full-stack solutions with React, Node.js, and cloud-native services.",
-        "Established code review, quality standards, and agile execution practices.",
-      ],
-    },
-    {
-      company: "LiveDesign",
-      position: "Full-Stack Developer & Software Engineer",
-      duration: "2022 - Present",
-      highlights: [
-        "Developed end-to-end features for collaborative digital products with modern React tooling.",
-        "Optimized API and data flows to improve responsiveness and platform reliability.",
-        "Worked cross-functionally with product and design to ship high-impact iterations.",
-      ],
-    },
-    {
-      company: "Vanana - Dash Develop",
+      company: "SEVENLY - Florida, United States",
       position: "Full-Stack Developer",
-      duration: "2019 - 2021",
+      duration: "Nov 2025 - Present",
       highlights: [
-        "Built backend services and business modules for production web platforms.",
-        "Implemented robust integrations and improved database performance in core workflows.",
-        "Supported continuous releases with improved development and deployment practices.",
+        "Develop, maintain, and optimize web products for multiple clients across frontend, backend, integrations, automation, and deployment workflows.",
+        "Implement responsive interfaces, landing pages, websites, and platform features with Laravel, HTML, CSS, and JavaScript.",
+        "Build business logic, API integrations, database workflows, and AI-assisted automation that reduces manual work and accelerates delivery.",
       ],
     },
     {
-      company: "iFood",
-      position: "Freelance Backend Developer",
-      duration: "Summer 2021",
+      company: "LIVE DESIGN, INC - Florida, United States",
+      position: "Frontend Developer",
+      duration: "Oct 2023 - Oct 2025",
       highlights: [
-        "Contributed backend components for order and logistics-related services.",
-        "Improved service stability and response behavior in high-demand operations.",
-        "Collaborated with distributed teams under tight release timelines.",
+        "Built and maintained landing pages and client-facing web interfaces using Laravel, HTML, CSS, JavaScript, and responsive design practices.",
+        "Resolved frontend defects, layout issues, responsive behavior, content updates, and visual improvements across multiple client websites.",
+        "Collaborated with internal teams and used AI-assisted development tools to speed up debugging, refactoring, code review, and frontend implementation.",
       ],
     },
     {
-      company: "Technisoftware S.A.S",
-      position: "Backend Developer",
-      duration: "2018 - 2019",
+      company: "Customer Integrated Solutions - Mexico City, Mexico",
+      position: "Lead Full-Stack Engineer",
+      duration: "Jan 2021 - Dec 2023",
       highlights: [
-        "Maintained and evolved backend modules for business process software.",
-        "Implemented API enhancements and database improvements for reliability.",
-        "Participated in requirements analysis and technical solution definition.",
+        "Led development of BussRide, a corporate transportation platform with React Native mobile apps, administrative web panels, backend services, APIs, databases, and cloud infrastructure.",
+        "Delivered features for drivers, passengers, and administrators, including real-time trip tracking, reservations, route scheduling, boarding validation, QR check-in, and operations monitoring.",
+        "Participated in architecture, migrations, service monitoring, deployments, and CI/CD flows on Google Cloud Platform and AWS.",
+      ],
+    },
+    {
+      company: "Vanana - Barranquilla, Colombia",
+      position: "Full-Stack Engineer",
+      duration: "Jan 2019 - Dec 2020",
+      highlights: [
+        "Developed, maintained, and improved web platforms for transportation management and operations across frontend, backend, and support workflows.",
+        "Implemented React.js interface improvements to optimize internal flows, usability, and user-facing functionality.",
+        "Built and supported backend services, API integrations, and MySQL databases using PHP and Node.js.",
+      ],
+    },
+    {
+      company: "TechniSoftware S.A.S. - Barranquilla, Colombia",
+      position: "Web Developer",
+      duration: "Jun 2018 - Dec 2018",
+      highlights: [
+        "Developed custom web software with Laravel, PHP, MySQL, SQL, HTML, and CSS based on business and client requirements.",
+        "Implemented, maintained, and improved software functionality to support stability, usability, and correct operation.",
+        "Supported MySQL databases, requirements planning, technical documentation, user manuals, and support materials.",
+      ],
+    },
+    {
+      company: "Termobarranquilla S.A. E.S.P. - Barranquilla, Colombia",
+      position: "Help Desk Support Specialist",
+      duration: "Oct 2017 - Apr 2018",
+      highlights: [
+        "Provided technical support for internal systems, resolving incidents related to applications, user access, configuration, and daily platform usage.",
+        "Managed corporate accounts, passwords, permissions, and access levels during employee onboarding, role changes, and offboarding.",
+        "Maintained customer data, email records, and internal systems while supporting software projects and infrastructure incident reporting.",
       ],
     },
   ],
@@ -120,31 +130,39 @@ const experience = {
 const education = {
   title: "Education & Certifications",
   description:
-    "Strong educational foundation in Systems Engineering complemented by specialized certifications in agile methodologies and modern software development practices. Continuous learner with focus on emerging technologies and industry best practices.",
+    "Systems Engineering education supported by applied research, mobile development training, IT communications coursework, and early recognition in software innovation programs.",
   items: [
     {
-      instituto: "Universidad de la Costa",
-      degree: "Agile Methodologies Certification (Scrum, Design Thinking, Kanban)",
-      duration: "2024",
-      type: "Certification",
-      details:
-        "Specialized training in agile frameworks focused on Scrum ceremonies, Kanban flow optimization, iterative delivery, and team productivity.",
-    },
-    {
-      instituto: "Universidad de la Costa",
-      degree: "Bachelor's Degree in Systems Engineering",
-      duration: "2016 - 2024",
+      instituto: "Universidad de la Costa CUC",
+      degree: "Systems Engineering",
+      duration: "Present",
       type: "Degree",
       details:
-        "Comprehensive foundation in software architecture, algorithms, databases, networking, and secure systems design for enterprise-grade applications.",
+        "Leader of SIASOFT, a university research seedbed focused on technology, software development, and applied research.",
     },
     {
-      instituto: "SENA",
-      degree: "Information Systems Analyst and Developer",
-      duration: "2016 - 2017",
-      type: "Technical Certification",
+      instituto: "Armenia, Colombia",
+      degree: "New Information and Communication Technologies (ICT) Course",
+      duration: "Present",
+      type: "Course",
       details:
-        "Technical training in systems analysis, requirements modeling, SQL-based data design, and practical implementation of business software solutions.",
+        "Ongoing training focused on the use and application of modern information and communication technologies.",
+    },
+    {
+      instituto: "Mobile Development",
+      degree: "Advanced Android Studio Course",
+      duration: "Present",
+      type: "Course",
+      details:
+        "Advanced coursework oriented to mobile application development.",
+    },
+    {
+      instituto: "SENAsoft - Armenia, Colombia",
+      degree: "SENA Representative for the Atlántico Department",
+      duration: "2016 - Present",
+      type: "Achievement",
+      details:
+        "Selected as SENA representative for the Atlántico department in the SENAsoft innovation competition.",
     },
   ],
 };
@@ -152,7 +170,7 @@ const education = {
 const skills = {
   title: "Technical Skills",
   description:
-    "Comprehensive skill set spanning frontend and backend development, cloud infrastructure, database management, and modern DevOps practices. Proficient in multiple programming languages and frameworks with expertise in scalable architecture design.",
+    "Technical stack spanning frontend, backend, mobile development, API integrations, relational databases, cloud infrastructure, CI/CD, analytics, and AI-assisted automation.",
   categories: [
     {
       title: "Programming Languages",
@@ -167,6 +185,7 @@ const skills = {
       title: "Frontend Development",
       skills: [
         { icon: <FaReact />, name: "React.js" },
+        { icon: <FaReact />, name: "React Native" },
         { icon: <SiNextdotjs />, name: "Next.js" },
         { icon: <FaHtml5 />, name: "HTML5" },
         { icon: <FaCss3 />, name: "CSS3" },
@@ -177,18 +196,24 @@ const skills = {
       title: "Backend Development",
       skills: [
         { icon: <FaNodeJs />, name: "Node.js" },
+        { icon: <FaNodeJs />, name: "Express" },
         { icon: <FaLaravel />, name: "Laravel" },
       ],
     },
     {
       title: "Automation & Integration",
-      skills: [{ icon: <FaCogs />, name: "N8N" }],
+      skills: [
+        { icon: <FaCogs />, name: "REST APIs" },
+        { icon: <FaCogs />, name: "AI Integrations" },
+        { icon: <FaCogs />, name: "AI-assisted Development" },
+        { icon: <FaCogs />, name: "Technical Decision-making" },
+      ],
     },
     {
       title: "Databases",
       skills: [
         { icon: <SiMysql />, name: "MySQL" },
-        { icon: <SiMongodb />, name: "MongoDB" },
+        { icon: <SiPostgresql />, name: "PostgreSQL" },
         { icon: <SiGooglebigquery />, name: "BigQuery" },
       ],
     },

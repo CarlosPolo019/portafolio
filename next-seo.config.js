@@ -1,21 +1,21 @@
 // next-seo.config.js
 const SEOConfig = {
-  title: 'Carlos Escorcia - Senior Full-Stack Developer | React.js, Node.js, AWS Expert',
-  description: 'Experienced Full-Stack Developer with 5+ years in React.js, Node.js, AWS, and cloud architecture. Available for remote work worldwide. Expert in JavaScript, TypeScript, Docker, and technical leadership.',
+  title: 'Carlos Escorcia - Full-Stack Developer | AI Integrations, Cloud & Automation',
+  description: 'Full-Stack Developer with 8+ years building scalable web and mobile applications, API integrations, AI automation, cloud workflows, and data solutions with React, React Native, Node.js, Laravel, GCP, and AWS.',
   canonical: 'https://cmescorcia.com',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://cmescorcia.com',
     siteName: 'Carlos Escorcia Portfolio',
-    title: 'Carlos Escorcia - Senior Full-Stack Developer',
-    description: 'Experienced Full-Stack Developer specializing in modern web applications with React.js, Node.js, and AWS. 5+ years of experience in technical leadership and cloud architecture.',
+    title: 'Carlos Escorcia - Full-Stack Developer',
+    description: 'Full-Stack Developer specializing in web and mobile applications, API integrations, AI-assisted automation, cloud workflows, and data solutions.',
     images: [
       {
         url: 'https://cmescorcia.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Carlos Escorcia - Senior Full-Stack Developer Portfolio',
+        alt: 'Carlos Escorcia - Full-Stack Developer Portfolio',
         type: 'image/jpeg',
       },
       {
@@ -35,7 +35,7 @@ const SEOConfig = {
   additionalMetaTags: [
     {
       name: 'keywords',
-      content: 'Carlos Escorcia, Full-Stack Developer, Senior Developer, React.js Developer, Node.js Developer, JavaScript Expert, AWS Developer, Software Engineer, Technical Lead, Remote Developer, Colombia Developer, Frontend Developer, Backend Developer, Web Developer, Cloud Architecture, Docker, Kubernetes, MySQL, MongoDB, TypeScript, DevOps, CI/CD, Agile, Scrum, API Development, Microservices, Enterprise Software, SaaS, Startup Experience, Fortune 500, iFood, Technical Consulting, Systems Engineering, Universidad de la Costa, English Fluent, Spanish Native, Barranquilla, South America, International Projects'
+      content: 'Carlos Escorcia, Carlos Escorcia Polo, Full-Stack Developer, React.js Developer, React Native Developer, Node.js Developer, Laravel Developer, JavaScript Expert, TypeScript Developer, API Integrations, AI Integrations, AI-assisted Development, Automation Developer, Google Cloud Platform, GCP Developer, AWS Developer, Software Engineer, Frontend Developer, Backend Developer, Web Developer, Cloud Infrastructure, MySQL, PostgreSQL, BigQuery, Looker Studio, REST APIs, CI/CD, Transportation Technology, Client Web Platforms, Technical Consulting, Systems Engineering, Universidad de la Costa, English, Spanish, Barranquilla, Colombia, Remote Developer'
     },
     {
       name: 'author',
@@ -144,11 +144,11 @@ const SEOConfig = {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Carlos Manuel Escorcia Polo",
-    "jobTitle": "Senior Full-Stack Developer",
-    "description": "Experienced Software Engineer with 5+ years specializing in React.js, Node.js, AWS, and modern web development. Based in Colombia with remote work experience.",
+    "jobTitle": "Full-Stack Developer",
+    "description": "Software engineer with 8+ years specializing in web and mobile applications, API integrations, AI automation, cloud workflows, and data solutions. Based in Colombia with remote work experience.",
     "url": "https://cmescorcia.com",
     "email": "cmescorcia5@icloud.com",
-    "telephone": "+57-300-123-4567",
+    "telephone": "+57-300-492-4361",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Barranquilla",
@@ -170,10 +170,10 @@ const SEOConfig = {
       }
     ],
     "knowsAbout": [
-      "JavaScript", "TypeScript", "React.js", "Node.js", "AWS", "Google Cloud Platform",
-      "Docker", "Kubernetes", "MySQL", "MongoDB", "REST APIs", "GraphQL",
-      "Technical Leadership", "Agile Development", "DevOps", "CI/CD", "Full-Stack Development",
-      "Cloud Architecture", "Microservices", "API Development", "Database Design",
+      "JavaScript", "TypeScript", "React.js", "React Native", "Node.js", "Express",
+      "PHP", "Laravel", "AWS", "Google Cloud Platform", "MySQL", "PostgreSQL",
+      "BigQuery", "Looker Studio", "REST APIs", "AI Integrations", "AI-assisted Development",
+      "Automation", "CI/CD", "Full-Stack Development", "API Development", "Database Workflows",
       "Software Engineering", "Web Development", "Mobile Development"
     ],
     "alumniOf": {
@@ -202,16 +202,16 @@ const SEOConfig = {
     "hasOccupation": {
       "@type": "Occupation",
       "name": "Software Developer",
-      "description": "Full-Stack Web Development, Cloud Architecture, and Technical Leadership",
-      "skills": "JavaScript, React.js, Node.js, AWS, Docker, MySQL, Technical Leadership, Agile Development",
+      "description": "Full-Stack Web Development, API Integrations, AI Automation, Cloud Infrastructure, and Technical Decision-Making",
+      "skills": "JavaScript, TypeScript, React.js, React Native, Node.js, Express, PHP, Laravel, MySQL, PostgreSQL, BigQuery, Looker Studio, Google Cloud Platform, AWS, REST APIs, CI/CD, AI Integrations, Automation",
       "occupationLocation": {
         "@type": "Country",
         "name": "Global Remote"
       }
     },
     "sameAs": [
-      "https://linkedin.com/in/carlos-escorcia-polo-0109441a6",
-      "https://github.com/carlos-escorcia",
+      "https://www.linkedin.com/in/carlos-escorcia-polo-0109441a6/",
+      "https://github.com/cmescorcia",
       "https://cmescorcia.com"
     ],
     "worksFor": {
@@ -219,10 +219,10 @@ const SEOConfig = {
       "name": "Freelance Developer & Technical Consultant"
     },
     "award": [
-      "5+ Years Experience in Full-Stack Development",
-      "Technical Leadership in Enterprise Projects",
-      "AWS and Google Cloud Platform Expertise",
-      "Agile Methodologies Certification"
+      "8+ Years Experience in Full-Stack Development",
+      "Lead Full-Stack Engineering for Corporate Transportation Platforms",
+      "Google Cloud Platform and AWS Experience",
+      "AI Integrations and AI-assisted Development Workflows"
     ]
   }
 };

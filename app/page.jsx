@@ -6,9 +6,9 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 
 const stats = [
-  { value: "5+", labelA: "Years of", labelB: "experience" },
+  { value: "8+", labelA: "Years of", labelB: "experience" },
   { value: "15+", labelA: "Projects", labelB: "completed" },
-  { value: "10+", labelA: "Technologies", labelB: "mastered" },
+  { value: "18+", labelA: "Technologies", labelB: "mastered" },
   { value: "6000+", labelA: "Code", labelB: "commits" },
 ];
 
@@ -32,23 +32,23 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Carlos Escorcia | Full-Stack Developer React & Node.js</title>
-        <meta name="description" content="Welcome to Carlos Manuel Escorcia Polo portfolio. Experienced Full-Stack Developer with 5+ years in React.js, Node.js, AWS, and cloud architecture. Available for remote work worldwide." />
-        <meta name="keywords" content="Carlos Manuel Escorcia Polo Portfolio, Senior Full-Stack Developer, React.js Expert, Node.js Developer, AWS Cloud Architect, Remote Developer Colombia, JavaScript Expert, Technical Leadership, Enterprise Software Development, SaaS Development, Startup Experience, Fortune 500 Projects" />
+        <title>Carlos Escorcia | Full-Stack Developer, AI Integrations & Cloud Automation</title>
+        <meta name="description" content="Portfolio of Carlos Manuel Escorcia Polo, Full-Stack Developer with 8+ years building scalable web and mobile apps, API integrations, AI automation, cloud infrastructure, and data solutions." />
+        <meta name="keywords" content="Carlos Manuel Escorcia Polo Portfolio, Full-Stack Developer, AI Integrations, React.js Developer, React Native Developer, Node.js Developer, Laravel Developer, API Integrations, Google Cloud Platform, AWS, Cloud Automation, Remote Developer Colombia, JavaScript Expert, Business Automation" />
         <meta name="author" content="Carlos Manuel Escorcia Polo" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://cmescorcia.com/" />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cmescorcia.com/" />
-        <meta property="og:title" content="Carlos Manuel Escorcia Polo - Senior Full-Stack Developer Portfolio" />
-        <meta property="og:description" content="Explore innovative web applications and cloud solutions by Carlos Manuel Escorcia Polo. Expert in React.js, Node.js, AWS with 5+ years experience." />
+        <meta property="og:title" content="Carlos Manuel Escorcia Polo - Full-Stack Developer Portfolio" />
+        <meta property="og:description" content="Explore web, mobile, API, AI automation, and cloud solutions by Carlos Manuel Escorcia Polo, Full-Stack Developer with 8+ years of experience." />
         <meta property="og:image" content="https://cmescorcia.com/og-home.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://cmescorcia.com/" />
-        <meta name="twitter:title" content="Carlos Manuel Escorcia Polo - Senior Full-Stack Developer" />
-        <meta name="twitter:description" content="Explore innovative web applications and cloud solutions by Carlos Manuel Escorcia Polo. Expert in React.js, Node.js, AWS with 5+ years experience." />
+        <meta name="twitter:title" content="Carlos Manuel Escorcia Polo - Full-Stack Developer" />
+        <meta name="twitter:description" content="Explore web, mobile, API, AI automation, and cloud solutions by Carlos Manuel Escorcia Polo, Full-Stack Developer with 8+ years of experience." />
         <meta name="twitter:image" content="https://cmescorcia.com/og-home.jpg" />
         <meta name="twitter:creator" content="@cmescorcia" />
         
@@ -63,10 +63,10 @@ const Home = () => {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Carlos Manuel Escorcia Polo",
-              "jobTitle": "Senior Full-Stack Developer",
+              "jobTitle": "Full-Stack Developer",
               "url": "https://cmescorcia.com",
               "email": "cmescorcia5@icloud.com",
-              "telephone": "+57-300-123-4567",
+              "telephone": "+57-300-492-4361",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Barranquilla",
@@ -74,20 +74,20 @@ const Home = () => {
                 "addressCountry": "CO"
               },
               "sameAs": [
-                "https://linkedin.com/in/cmescorcia",
+                "https://www.linkedin.com/in/carlos-escorcia-polo-0109441a6/",
                 "https://github.com/cmescorcia",
                 "https://twitter.com/cmescorcia",
                 "https://instagram.com/cmescorcia"
               ],
               "knowsAbout": [
-                "JavaScript", "TypeScript", "React.js", "Node.js", "AWS", "Google Cloud Platform",
-                "Docker", "Kubernetes", "MySQL", "MongoDB", "REST APIs", "GraphQL",
-                "Technical Leadership", "Agile Development", "DevOps", "CI/CD"
+                "JavaScript", "TypeScript", "React.js", "React Native", "Node.js", "Laravel",
+                "AWS", "Google Cloud Platform", "MySQL", "PostgreSQL", "BigQuery", "REST APIs",
+                "AI Integrations", "AI-assisted Development", "Automation", "CI/CD"
               ],
               "hasOccupation": {
                 "@type": "Occupation",
                 "name": "Software Developer",
-                "description": "Full-Stack Web Development, Cloud Architecture, Technical Leadership"
+                "description": "Full-Stack Web Development, API Integrations, AI Automation, and Cloud Infrastructure"
               },
               "alumniOf": {
                 "@type": "CollegeOrUniversity",
@@ -111,7 +111,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-10 xl:gap-12">
             <article className="w-full md:w-1/2 text-center md:text-left">
               <span className="font-primary text-sm tracking-[0.3em] uppercase text-violet-300/90 block mb-4">
-                Software Developer
+                Full-Stack Developer
               </span>
 
               <h1 className="text-4xl sm:text-5xl xl:text-7xl font-display font-extrabold leading-[1.02] mb-6">
@@ -121,9 +121,8 @@ const Home = () => {
               </h1>
 
               <p className="text-slate-300/90 max-w-xl leading-relaxed font-light text-lg mb-8 mx-auto md:mx-0">
-                Welcome to the intersection of innovation and impact. With 5+ years of experience, I specialize in
-                dynamic web applications, reliable backend systems, and scalable cloud infrastructure on AWS and Google
-                Cloud Platform.
+                Full-Stack Developer with 8+ years delivering scalable web and mobile applications, reliable APIs,
+                cloud infrastructure, data workflows, and AI-powered automation for business operations.
               </p>
 
               <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 justify-center md:justify-start">

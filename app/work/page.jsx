@@ -22,104 +22,104 @@ const projects = [
     category: "Enterprise Transportation Platform",
     title: "BussRide - Corporate Transport Management System",
     description:
-      "Enterprise-level transportation management platform for corporate employee transport. Includes real-time GPS tracking, route booking, driver management, automated scheduling, and centralized operations dashboards.",
+      "Corporate transportation platform for enterprise mobility operations. Includes real-time trip tracking, reservations, route scheduling, driver and passenger workflows, QR check-in, and operations monitoring.",
     longDescription:
-      "Built a high-availability transport platform that unified route planning, driver management, and employee mobility workflows. The project focused on reducing operational friction and improving visibility through real-time tracking.",
-    stack: ["React Native", "Node.js", "MySQL", "Google Maps API", "WebSockets", "Push Notifications"],
+      "Led development across React Native mobile apps, administrative web panels, backend services, APIs, databases, and cloud infrastructure. The platform improved visibility and continuity for corporate transport operations.",
+    stack: ["React Native", "Node.js", "MySQL", "Google Cloud", "REST APIs", "QR Check-in"],
     image: "/assets/bussride.png",
     live: "https://www.bussride.com/home",
     type: "Real-time",
     achievements: [
-      "Real-time GPS tracking for fleet management",
-      "Mobile app with route booking system",
-      "Driver-passenger communication system",
-      "Automated scheduling and route optimization",
+      "Real-time trip tracking and operations monitoring",
+      "Passenger, driver, and administrator workflows",
+      "Route reservations, scheduling, and boarding validation",
+      "QR-based check-in for controlled boarding",
     ],
     technologies: ["Real-time Tracking", "Mobile Development", "Fleet Management", "Route Optimization"],
   },
   {
     num: "02",
-    category: "Cloud Infrastructure & Cost Optimization",
-    title: "Enterprise Cloud Migration & Resource Optimization",
+    category: "Cloud Infrastructure & Resource Optimization",
+    title: "Cloud Deployments, Migrations & Resource Optimization",
     description:
-      "Comprehensive Google Cloud migration and cost optimization initiative with database migration, server consolidation, load balancing, backup automation, and infrastructure standardization.",
+      "Cloud infrastructure work across Google Cloud Platform and AWS, including deployment workflows, environment configuration, migrations, monitoring, CI/CD, and resource optimization.",
     longDescription:
-      "Designed and executed migration strategy for cloud workloads with cost-control principles. The project reduced infrastructure waste while improving reliability and deployment consistency.",
-    stack: ["Google Cloud", "Cloud SQL", "Compute Engine", "Load Balancer", "Cloud Storage", "Terraform"],
+      "Supported production systems through architecture decisions, migration planning, service monitoring, deployment flows, CI/CD practices, and infrastructure adjustments focused on reliability and maintainability.",
+    stack: ["Google Cloud", "AWS", "CI/CD", "Cloud SQL", "Compute Engine", "Monitoring"],
     image: "/assets/cost.png",
     live: "",
-    type: "Fintech",
+    type: "Cloud",
     achievements: [
-      "60% reduction in cloud infrastructure costs",
-      "Zero-downtime database migration",
-      "Automated backup and disaster recovery",
-      "Unified billing and resource management",
+      "Production deployment workflow improvements",
+      "Cloud migration and environment configuration support",
+      "Service monitoring and resource optimization",
+      "Cross-platform infrastructure decisions",
     ],
-    technologies: ["Cloud Migration", "Cost Optimization", "Infrastructure as Code", "Database Management"],
+    technologies: ["Cloud Migration", "Resource Optimization", "CI/CD", "Database Management"],
   },
   {
     num: "03",
-    category: "Microservices Architecture & DevOps",
-    title: "Scalable Microservices with Google Cloud Deployment",
+    category: "AI Automation & Developer Productivity",
+    title: "AI-Assisted Automation for Delivery Workflows",
     description:
-      "Enterprise microservices architecture deployed on Google Cloud with Docker containerization, Kubernetes orchestration, automated CI/CD pipelines, and production observability.",
+      "AI-assisted development and automation workflows used to reduce manual effort in debugging, refactoring, documentation, content flow execution, and delivery processes.",
     longDescription:
-      "Implemented cloud-native delivery pipelines and orchestration model for resilient services. The system improved release confidence, availability, and observability for production teams.",
-    stack: ["GKE", "Docker", "Cloud Build", "Node.js", "Cloud SQL", "Cloud Operations"],
+      "Implemented practical AI workflows around real delivery needs: accelerating code review, debugging, refactoring, documentation, data preparation, and repetitive operational tasks without losing maintainability.",
+    stack: ["AI Tools", "Automation", "REST APIs", "JavaScript", "Documentation", "Debugging"],
     image: "",
     live: "",
-    type: "AI & ML",
+    type: "Automation",
     achievements: [
-      "99.9% uptime with auto-scaling",
-      "Automated CI/CD pipeline deployment",
-      "Multi-region disaster recovery",
-      "Container orchestration optimization",
+      "Reduced repetitive manual tasks in client workflows",
+      "Faster debugging and refactoring cycles",
+      "Automated documentation and content support",
+      "Integrated AI assistance into practical delivery processes",
     ],
-    technologies: ["Microservices", "Google Kubernetes Engine", "Cloud Architecture", "DevOps Automation"],
+    technologies: ["AI Integrations", "Workflow Automation", "Developer Productivity", "API Integration"],
   },
   {
     num: "04",
-    category: "Business Intelligence with Power BI",
-    title: "Executive Dashboard & Automated Reporting System",
+    category: "Business Intelligence & Reporting",
+    title: "BigQuery and Looker Studio Reporting Workflows",
     description:
-      "Business intelligence platform with KPI tracking, ETL automation, and executive reporting across multiple integrated business systems.",
+      "Reporting and dashboard workflows using BigQuery, Looker Studio, SQL, and operational data sources to support visibility into platform activity and business performance.",
     longDescription:
-      "Integrated multiple operational data sources into a centralized reporting layer. Enabled leadership teams to monitor KPIs in real time and reduce manual analysis overhead.",
-    stack: ["Power BI", "SQL Server", "Python", "Azure Data Factory", "DAX", "Power Query"],
+      "Built and maintained data processes, dashboards, and reporting tools that helped operational teams monitor KPIs, platform behavior, and resource usage with less manual spreadsheet work.",
+    stack: ["BigQuery", "Looker Studio", "SQL", "Data Workflows", "Dashboards", "Reports"],
     image: "",
     live: "",
     type: "Analytics",
     achievements: [
-      "Automated daily executive reports",
-      "Real-time KPI monitoring dashboard",
-      "Cross-platform data integration",
-      "50% reduction in manual reporting time",
+      "Operational dashboards and KPI visibility",
+      "SQL-based reporting and data preparation",
+      "Cross-platform data workflow support",
+      "Reduced manual reporting overhead",
     ],
     technologies: ["Business Intelligence", "Data Visualization", "ETL Processes", "Executive Reporting"],
   },
   {
     num: "05",
-    category: "Data Analytics with Google Cloud",
-    title: "BigQuery & Looker Studio Resource Optimization Platform",
+    category: "Client Web Platforms",
+    title: "Responsive Websites, Landing Pages & Client Features",
     description:
-      "Advanced data analytics platform using BigQuery and Looker Studio for large-scale processing, query optimization, and real-time operational visibility.",
+      "Responsive web interfaces, landing pages, content updates, visual improvements, and platform features delivered for multiple clients using Laravel, HTML, CSS, JavaScript, and React.",
     longDescription:
-      "Delivered a cloud analytics framework that improved query speed and visibility across data-intensive workflows while controlling spend and improving reporting quality.",
-    stack: ["BigQuery", "Looker Studio", "Cloud Dataflow", "Cloud Functions", "Python", "SQL"],
+      "Delivered day-to-day product improvements across client sites and web platforms, including frontend implementation, layout fixes, responsive behavior, backend logic, API integration, and database updates.",
+    stack: ["Laravel", "JavaScript", "HTML", "CSS", "React.js", "MySQL"],
     image: "",
     live: "",
-    type: "Data",
+    type: "Web",
     achievements: [
-      "80% faster query performance optimization",
-      "Real-time data processing pipelines",
-      "Automated resource consumption analytics",
-      "Cost-optimized data warehouse architecture",
+      "Responsive landing pages and client interfaces",
+      "Frontend fixes, content updates, and visual improvements",
+      "Business logic, APIs, and database workflows",
+      "Reusable delivery practices across multiple platforms",
     ],
-    technologies: ["BigQuery Analytics", "Data Pipeline Optimization", "Real-time Visualization", "Resource Optimization"],
+    technologies: ["Responsive Development", "Laravel", "Frontend Support", "Client Platforms"],
   },
 ];
 
-const filterOptions = ["All Projects", "Fintech", "AI & ML", "Real-time", "Analytics", "Data"];
+const filterOptions = ["All Projects", "Real-time", "Cloud", "Automation", "Analytics", "Web"];
 
 const Work = () => {
   const [filter, setFilter] = useState("All Projects");
@@ -153,10 +153,10 @@ const Work = () => {
                 <span className="text-xs font-bold uppercase tracking-[0.3em] text-amber-400">Engineering Excellence</span>
               </div>
               <h1 className="mb-5 text-4xl font-black leading-[1.05] text-white md:text-6xl">
-                Selected Works <span className="text-white/20">2020-24</span>
+                Selected Works <span className="text-white/20">2018-26</span>
               </h1>
               <p className="max-w-xl text-lg leading-relaxed text-white/50">
-                A curated collection of high-impact systems, cloud transformations, and data-first products engineered for scale.
+                A curated collection of transport platforms, client web products, cloud workflows, data tools, and AI-assisted automation.
               </p>
             </div>
 
@@ -322,12 +322,12 @@ const Work = () => {
                 <div className="max-w-xl">
                   <h3 className="mb-4 text-3xl font-bold tracking-tight text-white sm:text-4xl">Let's work together.</h3>
                   <p className="text-lg font-light text-slate-400">
-                    Have a project in mind or looking for a technical partner to scale your vision? Let's connect and build something exceptional.
+                    Have a product, integration, cloud workflow, or automation process that needs reliable execution? Let's connect.
                   </p>
                   <div className="mt-7 flex flex-col gap-4">
-                    <a className="flex items-center gap-3 text-white transition-colors hover:text-amber-400" href="mailto:carlosescorcia.dev@gmail.com">
+                    <a className="flex items-center gap-3 text-white transition-colors hover:text-amber-400" href="mailto:cmescorcia5@icloud.com">
                       <FiMail className="text-amber-400" />
-                      <span className="font-medium">carlosescorcia.dev@gmail.com</span>
+                      <span className="font-medium">cmescorcia5@icloud.com</span>
                     </a>
                     <div className="flex items-center gap-3 text-white">
                       <FiMapPin className="text-amber-400" />

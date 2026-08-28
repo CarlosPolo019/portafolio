@@ -4,7 +4,7 @@ owner: Carlos Manuel Escorcia Polo
 language: en, es
 
 about:
-- Senior Full-Stack Developer portfolio focused on React, Node.js, cloud architecture, and technical leadership.
+- Full-Stack Developer portfolio focused on scalable web and mobile applications, API integrations, AI automation, cloud workflows, and data solutions.
 
 primary_pages:
 - / (Home)

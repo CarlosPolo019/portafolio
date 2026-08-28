@@ -20,48 +20,48 @@ const services = [
     num: "01",
     title: "Full-Stack Web Development",
     description:
-      "End-to-end web development solutions using modern frameworks including React.js, Next.js, and Node.js. Specialized in building responsive, scalable applications with optimized performance, SEO implementation, and cross-browser compatibility. Expert in JavaScript ES6+, TypeScript, and modern CSS frameworks like Tailwind CSS.",
-    keywords: ["React.js", "Next.js", "JavaScript", "TypeScript", "Node.js"],
+      "End-to-end web product development across frontend, backend, business logic, databases, and deployment workflows. Specialized in responsive interfaces, maintainable Laravel and JavaScript implementations, and production-ready features for client platforms.",
+    keywords: ["React.js", "Next.js", "JavaScript", "TypeScript", "Laravel"],
     icon: <FiCode />,
   },
   {
     num: "02",
     title: "Backend Development & API Design",
     description:
-      "Robust backend architecture development using Node.js, PHP, and Laravel. Expertise in RESTful API design, GraphQL implementation, microservices architecture, and database optimization (MySQL, MongoDB, PostgreSQL). Focus on scalable system design, security best practices, and performance optimization.",
-    keywords: ["Node.js", "PHP", "Laravel", "RESTful APIs", "GraphQL"],
+      "Business logic, REST API integrations, backend services, and database workflows using Node.js, PHP, Laravel, MySQL, PostgreSQL, and BigQuery. Focused on stability, operational continuity, and clear integration contracts.",
+    keywords: ["Node.js", "PHP", "Laravel", "REST APIs", "Databases"],
     icon: <FiDatabase />,
   },
   {
     num: "03",
     title: "Cloud Infrastructure & DevOps",
     description:
-      "Comprehensive cloud solutions using AWS and Google Cloud Platform. Specializing in containerization with Docker, orchestration with Kubernetes, CI/CD pipeline implementation, infrastructure as code, and automated deployment strategies. Expert in monitoring, logging, and ensuring high availability systems.",
-    keywords: ["AWS", "Google Cloud", "Docker", "Kubernetes", "CI/CD"],
+      "Cloud infrastructure support, deployment workflows, CI/CD, environment configuration, service monitoring, migrations, and resource optimization across Google Cloud Platform and AWS.",
+    keywords: ["GCP", "AWS", "CI/CD", "Deployments", "Monitoring"],
     icon: <FiCloud />,
   },
   {
     num: "04",
     title: "Data Analytics & BI",
     description:
-      "Advanced data analysis and visualization using Power BI, Looker Studio, and BigQuery. Expertise in ETL processes, data warehousing, statistical analysis, and creating actionable business insights. Proficient in SQL optimization, data modeling, and automated reporting solutions.",
-    keywords: ["Power BI", "BigQuery", "Data Analysis", "SQL", "ETL"],
+      "Operational dashboards, reporting workflows, SQL-based analysis, BigQuery datasets, and Looker Studio visualizations that make platform performance and business activity easier to monitor.",
+    keywords: ["BigQuery", "Looker Studio", "SQL", "Dashboards", "Reporting"],
     icon: <FiBarChart2 />,
   },
   {
     num: "05",
-    title: "Process Automation & Integration",
+    title: "AI Automation & Integration",
     description:
-      "Workflow automation and system integration using N8N, Zapier, and custom automation solutions. Specializing in API integrations, data synchronization, business process optimization, and reducing manual tasks through intelligent automation. Expert in webhook implementations and third-party service integrations.",
-    keywords: ["N8N", "Automation", "API Integration", "Workflows"],
+      "Practical AI-assisted workflows and API-based automation to reduce repetitive work, speed up content flows, improve debugging, support refactoring, generate documentation, and streamline delivery.",
+    keywords: ["AI Integrations", "Automation", "APIs", "Workflows"],
     icon: <FiCpu />,
   },
   {
     num: "06",
-    title: "Technical Leadership & Management",
+    title: "Technical Decision-Making",
     description:
-      "Technical team leadership with 5+ years of experience managing cross-functional development teams. Expertise in agile methodologies (Scrum, Kanban), code review processes, mentoring junior developers, project planning, and implementing best practices for software development lifecycle.",
-    keywords: ["Technical Leadership", "Scrum", "Mentoring", "Agile"],
+      "Architecture input, debugging strategy, resource optimization, environment decisions, deployment planning, and maintainability guidance for teams shipping client-facing software.",
+    keywords: ["Architecture", "Debugging", "CI/CD", "Optimization"],
     icon: <FiUsers />,
   },
 ];
@@ -92,8 +92,8 @@ const Services = () => {
             </span>
           </h1>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto font-light leading-relaxed">
-            Precision engineering tailored for high-impact digital products. Modern architecture, business-first execution,
-            and premium user experience.
+            Practical engineering for scalable products, API integrations, automation, cloud workflows, and maintainable
+            releases across client-facing platforms.
           </p>
         </motion.div>
 
@@ -137,16 +137,16 @@ const Services = () => {
               <div className="flex-1">
                 <h3 className="text-white text-3xl sm:text-4xl font-bold mb-4 tracking-tight">Let's work together.</h3>
                 <p className="text-slate-400 text-base sm:text-lg font-light max-w-xl">
-                  Have a project in mind or need a technical partner to scale your product? Let's connect and build
-                  something exceptional.
+                  Have a product, integration, cloud workflow, or automation process that needs reliable execution?
+                  Let's connect and define the right technical path.
                 </p>
                 <div className="mt-7 flex flex-col sm:flex-row gap-5">
                   <a
                     className="flex items-center gap-3 text-white hover:text-amber-400 transition-colors"
-                    href="mailto:carlosescorcia.dev@gmail.com"
+                    href="mailto:cmescorcia5@icloud.com"
                   >
                     <FiMail className="text-amber-400" />
-                    <span className="font-medium">carlosescorcia.dev@gmail.com</span>
+                    <span className="font-medium">cmescorcia5@icloud.com</span>
                   </a>
                   <a
                     className="flex items-center gap-3 text-white hover:text-amber-400 transition-colors"

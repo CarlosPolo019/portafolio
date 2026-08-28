@@ -15,8 +15,8 @@ const jetbrainsmono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Carlos Escorcia | Full-Stack Developer React & Node.js",
-  description: "Explore the portfolio of Carlos Manuel Escorcia Polo, a Full Stack Developer specializing in React and Node.js. Discover projects, experience, and services",
+  title: "Carlos Escorcia | Full-Stack Developer, AI Integrations & Cloud Automation",
+  description: "Explore the portfolio of Carlos Manuel Escorcia Polo, a Full-Stack Developer with 8+ years building web and mobile applications, API integrations, AI automation, cloud workflows, and data solutions.",
   metadataBase: new URL('https://cmescorcia.com'),
   alternates: {
     canonical: '/',
@@ -40,8 +40,8 @@ export const metadata = {
     locale: 'en_US',
     url: 'https://cmescorcia.com',
     siteName: 'Carlos Escorcia Portfolio',
-    title: 'Carlos Escorcia - Senior Full-Stack Developer',
-    description: 'Experienced Full-Stack Developer specializing in modern web applications with React.js, Node.js, and AWS.',
+    title: 'Carlos Escorcia - Full-Stack Developer',
+    description: 'Full-Stack Developer specializing in scalable web and mobile applications, API integrations, AI automation, GCP, AWS, and data workflows.',
     images: [
       {
         url: 'https://cmescorcia.com/og-image.jpg',
@@ -60,11 +60,15 @@ export const metadata = {
     'Carlos Escorcia',
     'Full-Stack Developer', 
     'React.js Developer',
+    'React Native Developer',
     'Node.js Developer',
     'JavaScript Expert',
+    'Laravel Developer',
+    'GCP Developer',
     'AWS Developer',
+    'AI Integrations',
+    'Automation Developer',
     'Software Engineer',
-    'Technical Lead',
     'Remote Developer',
     'Colombia Developer'
   ],
@@ -98,16 +102,16 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Carlos Escorcia Portfolio",
-              "description": "Professional portfolio of Carlos Manuel Escorcia Polo, Senior Full-Stack Developer",
+              "description": "Professional portfolio of Carlos Manuel Escorcia Polo, Full-Stack Developer focused on web, mobile, AI integrations, cloud, and automation.",
               "url": "https://cmescorcia.com",
               "author": {
                 "@type": "Person",
                 "name": "Carlos Manuel Escorcia Polo",
-                "jobTitle": "Senior Full-Stack Developer",
+                "jobTitle": "Full-Stack Developer",
                 "email": "cmescorcia5@icloud.com",
                 "url": "https://cmescorcia.com",
                 "sameAs": [
-                  "https://linkedin.com/in/cmescorcia",
+                  "https://www.linkedin.com/in/carlos-escorcia-polo-0109441a6/",
                   "https://github.com/cmescorcia",
                   "https://twitter.com/cmescorcia",
                   "https://instagram.com/cmescorcia"

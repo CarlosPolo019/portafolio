@@ -5,34 +5,34 @@ import { useState, useEffect, useMemo } from 'react';
 const BASE_KEYWORDS = {
   technical: [
     'JavaScript', 'TypeScript', 'React.js', 'Node.js', 'PHP', 'Laravel',
-    'MySQL', 'MongoDB', 'AWS', 'Google Cloud Platform', 'Docker', 'Kubernetes',
-    'REST API', 'GraphQL', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js',
-    'Express.js', 'Git', 'CI/CD', 'DevOps', 'Microservices'
+    'MySQL', 'PostgreSQL', 'BigQuery', 'AWS', 'Google Cloud Platform',
+    'REST API', 'HTML5', 'CSS3', 'Tailwind CSS', 'Next.js', 'React Native',
+    'Express.js', 'Git', 'CI/CD', 'Looker Studio', 'AI Integrations'
   ],
   
   skills: [
-    'Full-Stack Developer', 'Senior Developer', 'Software Engineer', 
-    'Technical Lead', 'Frontend Developer', 'Backend Developer',
-    'Cloud Architect', 'DevOps Engineer', 'API Developer',
-    'Database Developer', 'Web Developer', 'Mobile Developer'
+    'Full-Stack Developer', 'Software Engineer', 'Lead Full-Stack Engineer',
+    'Frontend Developer', 'Backend Developer', 'Mobile Developer',
+    'Cloud Developer', 'API Developer', 'Automation Developer',
+    'Database Developer', 'Web Developer'
   ],
   
   experience: [
-    '5+ years experience', 'Technical Leadership', 'Team Management',
-    'Project Management', 'Agile', 'Scrum', 'Kanban', 'Code Review',
-    'Mentoring', 'Problem Solving', 'Remote Work', 'Collaboration'
+    '8+ years experience', 'Technical Decision-Making', 'Architecture',
+    'Project Planning', 'Code Review', 'Debugging', 'Refactoring',
+    'Documentation', 'Problem Solving', 'Remote Work', 'Collaboration'
   ],
   
   industries: [
-    'Enterprise Software', 'SaaS', 'E-commerce', 'Fintech', 'Startup',
-    'Fortune 500', 'B2B', 'B2C', 'Digital Transformation',
-    'Transportation Technology', 'Food Delivery', 'Logistics'
+    'Enterprise Software', 'Client Web Platforms', 'B2B', 'B2C',
+    'Digital Transformation', 'Transportation Technology', 'Corporate Transport',
+    'Operations', 'Logistics', 'Business Automation'
   ],
   
   education: [
-    'Bachelor Degree', 'Systems Engineering', 'Universidad de la Costa',
-    'Technical Certification', 'Agile Certification', 'AWS Certification',
-    'Professional Development', 'Continuous Learning'
+    'Systems Engineering', 'Universidad de la Costa', 'SIASOFT',
+    'Android Studio', 'Information and Communication Technologies',
+    'SENAsoft', 'Innovation', 'Professional Development', 'Continuous Learning'
   ],
   
   location: [
@@ -41,6 +41,11 @@ const BASE_KEYWORDS = {
     'English Fluent', 'Spanish Native', 'Bilingual'
   ]
 };
+
+const STOP_WORDS = [
+  'and', 'the', 'for', 'with', 'from', 'that', 'this', 'you', 'your', 'are',
+  'del', 'los', 'las', 'con', 'para', 'por', 'una', 'uno', 'que', 'como'
+];
 
 /**
  * Hook personalizado para optimización ATS
@@ -97,9 +102,9 @@ export const useATSKeywords = (jobDescription = '', targetRole = '') => {
       'full-stack': [...BASE_KEYWORDS.technical, 'Full-Stack Development', 'MEAN Stack', 'MERN Stack'],
       'frontend': ['React.js', 'Vue.js', 'Angular', 'TypeScript', 'CSS3', 'Responsive Design', 'UI/UX'],
       'backend': ['Node.js', 'API Development', 'Database Design', 'Server Architecture', 'Microservices'],
-      'cloud': ['AWS', 'Google Cloud', 'Azure', 'Docker', 'Kubernetes', 'DevOps', 'Infrastructure'],
-      'senior': ['Technical Leadership', 'Architecture', 'Team Lead', 'Code Review', 'Mentoring'],
-      'lead': ['Project Management', 'Team Management', 'Strategic Planning', 'Cross-functional']
+      'cloud': ['AWS', 'Google Cloud', 'CI/CD', 'Infrastructure', 'Monitoring', 'Deployments'],
+      'senior': ['Technical Decision-Making', 'Architecture', 'Code Review', 'Debugging'],
+      'lead': ['Technical Decision-Making', 'Project Planning', 'Architecture', 'Cross-functional']
     };
 
     const targetLower = targetRole.toLowerCase();
@@ -157,4 +162,24 @@ export const useATSKeywords = (jobDescription = '', targetRole = '') => {
   const getMissingKeywords = () => {
     if (!analyzedKeywords.length) return [];
     
-    return analyzedKeywords
+    const resumeKeywords = generateRoleKeywords.map((keyword) => keyword.toLowerCase());
+
+    return analyzedKeywords.filter((keyword) => {
+      return !resumeKeywords.some((resumeKeyword) =>
+        resumeKeyword.includes(keyword.toLowerCase()) ||
+        keyword.toLowerCase().includes(resumeKeyword)
+      );
+    });
+  };
+
+  return {
+    keywords: generateRoleKeywords,
+    analyzedKeywords,
+    matchScore,
+    loading,
+    hiddenContent: generateHiddenContent(),
+    missingKeywords: getMissingKeywords(),
+  };
+};
+
+export default useATSKeywords;

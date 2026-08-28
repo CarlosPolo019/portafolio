@@ -42,10 +42,10 @@ const info = [
 const serviceNames = {
   "web-development": "Full-Stack Web Development",
   "backend-api": "Backend Development & API Design",
-  "cloud-infrastructure": "Cloud Infrastructure & DevOps",
+  "cloud-infrastructure": "Cloud Infrastructure & CI/CD",
   "data-analytics": "Data Analytics & Business Intelligence",
-  automation: "Process Automation & Integration",
-  "technical-leadership": "Technical Leadership & Consulting",
+  automation: "AI Automation & API Integration",
+  "technical-leadership": "Technical Decision-Making & Consulting",
   other: "Other / Custom Solution",
 };
 
@@ -130,8 +130,8 @@ const Contact = () => {
               </h1>
 
               <p className="mb-12 text-base font-light leading-relaxed text-slate-400 md:text-lg">
-                Currently available for high-impact engineering roles and architectural consultations. Seeking complex
-                problems that require elegant, scalable code.
+                Available for full-stack product work, API integrations, cloud workflows, AI-assisted automation, and
+                technical consulting for teams that need reliable execution.
               </p>
 
               <div className="space-y-8">
@@ -242,10 +242,10 @@ const Contact = () => {
                   >
                     <option className="bg-[#121212] text-white" value="web-development">Full-stack Development</option>
                     <option className="bg-[#121212] text-white" value="backend-api">Backend API Design</option>
-                    <option className="bg-[#121212] text-white" value="cloud-infrastructure">Cloud Architecture</option>
+                    <option className="bg-[#121212] text-white" value="cloud-infrastructure">Cloud Infrastructure & CI/CD</option>
                     <option className="bg-[#121212] text-white" value="data-analytics">Data Analytics & BI</option>
-                    <option className="bg-[#121212] text-white" value="automation">Automation & Integration</option>
-                    <option className="bg-[#121212] text-white" value="technical-leadership">Technical Consultation</option>
+                    <option className="bg-[#121212] text-white" value="automation">AI Automation & Integration</option>
+                    <option className="bg-[#121212] text-white" value="technical-leadership">Technical Decision-Making</option>
                     <option className="bg-[#121212] text-white" value="other">Other</option>
                   </select>
                 </div>
@@ -256,7 +256,7 @@ const Contact = () => {
                   </label>
                   <textarea
                     className="w-full resize-none border-0 border-b border-[#333] bg-transparent py-3 text-lg font-light text-white placeholder:text-slate-700 focus:border-amber-400 focus:outline-none"
-                    placeholder="Tell me about your extraordinary project..."
+                    placeholder="Tell me about your product, integration, automation, or cloud workflow..."
                     rows={4}
                     name="message"
                     value={formData.message}
