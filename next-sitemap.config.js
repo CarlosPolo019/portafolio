@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://cmescorcia.com',
+  siteUrl: 'https://www.cmescorcia.com',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   sitemapSize: 7000,
@@ -53,6 +53,6 @@ module.exports = {
       },
     ],
     transformRobotsTxt: async (_, robotsTxt) =>
-      robotsTxt.replace(/\n# Host\nHost: https:\/\/cmescorcia\.com\n/, ''),
+      robotsTxt.replace(/\n# Host\nHost: https:\/\/www\.cmescorcia\.com\n/, ''),
   },
 };

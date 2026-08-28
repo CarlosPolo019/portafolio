@@ -1,4 +1,4 @@
-site: https://cmescorcia.com
+site: https://www.cmescorcia.com
 name: Carlos Escorcia Portfolio
 owner: Carlos Manuel Escorcia Polo
 language: en, es

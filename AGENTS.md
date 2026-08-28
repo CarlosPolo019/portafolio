@@ -2,7 +2,7 @@
 
 ## Project Scope
 
-This repository is the production portfolio for Carlos Escorcia at `https://cmescorcia.com`.
+This repository is the production portfolio for Carlos Escorcia at `https://www.cmescorcia.com`.
 
 It is a Next.js 14 App Router project using React 18, JavaScript/JSX, Tailwind CSS, Radix/shadcn-style primitives, `framer-motion`, `react-icons`, and Vercel Analytics.
 
@@ -59,7 +59,7 @@ Notes:
 
 SEO is a first-class concern for this project.
 
-- Keep the canonical domain as `https://cmescorcia.com`.
+- Keep the canonical domain as `https://www.cmescorcia.com`, matching the production host that returns `200`.
 - Keep domain references synchronized across `app/seo.js`, `next-sitemap.config.js`, `public/robots.txt`, `public/sitemap.xml`, and `public/llms.txt` when they are changed intentionally.
 - Every indexable route must export `metadata` from its server `page.jsx` using `createPageMetadata()` from `app/seo.js`.
 - Do not put page metadata in client components or `next/head`.
@@ -110,10 +110,10 @@ Before considering SEO work complete, verify:
 
 - `<title>` is present and unique.
 - `<meta name="description">` is present and accurate.
-- `<link rel="canonical">` points to `https://cmescorcia.com`.
+- `<link rel="canonical">` points to `https://www.cmescorcia.com`.
 - `og:image` points to an existing image.
 - JSON-LD renders valid page-appropriate schema.
-- `robots.txt` allows public pages and references `https://cmescorcia.com/sitemap.xml`.
+- `robots.txt` allows public pages and references `https://www.cmescorcia.com/sitemap.xml`.
 - `sitemap.xml` includes every intended indexable route.
 
 Before considering UI work complete, verify:
@@ -125,18 +125,18 @@ Before considering UI work complete, verify:
 
 ## Deployment Checklist
 
-Before publishing to `cmescorcia.com`:
+Before publishing to `www.cmescorcia.com`:
 
 1. Run `npm run lint`.
 2. Run `npm run build`.
 3. Confirm `public/sitemap.xml` and `public/robots.txt` contain the production domain.
 4. Verify `/`, `/services`, `/resume`, `/work`, and `/contact` render locally.
 5. After deploy, inspect:
-   - `https://cmescorcia.com`
-   - `https://cmescorcia.com/robots.txt`
-   - `https://cmescorcia.com/sitemap.xml`
+   - `https://www.cmescorcia.com`
+   - `https://www.cmescorcia.com/robots.txt`
+   - `https://www.cmescorcia.com/sitemap.xml`
 
-After SEO deployments, submit or recheck `https://cmescorcia.com/sitemap.xml` in Google Search Console and inspect the changed URLs.
+After SEO deployments, submit or recheck `https://www.cmescorcia.com/sitemap.xml` in Google Search Console and inspect the changed URLs.
 
 ## Subagent Use
 

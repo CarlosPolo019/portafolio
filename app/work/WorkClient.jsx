@@ -357,7 +357,7 @@ const Work = () => {
                 <Link href="https://www.linkedin.com/in/carlos-escorcia-polo-0109441a6/" target="_blank" rel="noreferrer" className="rounded-full border border-white/10 p-2 text-white/50 transition-all hover:border-white hover:text-white">
                   <FiLinkedin />
                 </Link>
-                <Link href="https://cmescorcia.com" className="rounded-full border border-white/10 p-2 text-white/50 transition-all hover:border-white hover:text-white">
+                <Link href="https://www.cmescorcia.com" className="rounded-full border border-white/10 p-2 text-white/50 transition-all hover:border-white hover:text-white">
                   <FiGlobe />
                 </Link>
               </div>

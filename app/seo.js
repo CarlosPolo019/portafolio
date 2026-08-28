@@ -1,4 +1,4 @@
-export const siteUrl = "https://cmescorcia.com";
+export const siteUrl = "https://www.cmescorcia.com";
 
 export const siteName = "Carlos Escorcia Portfolio";
 

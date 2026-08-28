@@ -5,4 +5,4 @@ Disallow: /admin
 Disallow: /api/auth
 
 # Sitemaps
-Sitemap: https://cmescorcia.com/sitemap.xml
+Sitemap: https://www.cmescorcia.com/sitemap.xml
