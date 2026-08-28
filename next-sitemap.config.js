@@ -51,16 +51,8 @@ module.exports = {
         allow: '/',
         disallow: ['/admin', '/api/auth'],
       },
-      {
-        userAgent: 'Googlebot',
-        allow: '/',
-        crawlDelay: 1,
-      },
-      {
-        userAgent: 'Bingbot',
-        allow: '/',
-        crawlDelay: 1,
-      },
     ],
+    transformRobotsTxt: async (_, robotsTxt) =>
+      robotsTxt.replace(/\n# Host\nHost: https:\/\/cmescorcia\.com\n/, ''),
   },
 };

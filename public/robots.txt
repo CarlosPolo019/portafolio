@@ -4,18 +4,5 @@ Allow: /
 Disallow: /admin
 Disallow: /api/auth
 
-# Googlebot
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
-
-# Bingbot
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
-
-# Host
-Host: https://cmescorcia.com
-
 # Sitemaps
 Sitemap: https://cmescorcia.com/sitemap.xml
